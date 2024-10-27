@@ -16,7 +16,7 @@ Project ini dibuat untuk menyelesaikan tugas Analisa Jejaring Sosial - Crawling 
 Pertama, Clone Repo ini ke local system
 
 ```bash
-git clone https://github.com/yourusername/userlookup-basic-twitter-ajs.git
+git clone https://github.com/rrydrr/userlookup-basic-twitter-ajs.git
 ```
 
 ### 2. Install Dependencies
