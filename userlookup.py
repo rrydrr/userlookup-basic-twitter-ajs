@@ -18,8 +18,8 @@ def get_user_by_username(username, bearer_token):
         response.raise_for_status()
 
 if __name__ == "__main__":
-    username = 'leodicaprio' # TODO : UBAH USERNAME
-    bearer_token = os.getenv('BEARER_TOKEN')
+    username = input("Masukkan username yang ingin dicari: ")
+    bearer_token = os.getenv('BEARER_TOKEN') # TODO : buat file '.env' dan isi dengan 'BEARER_TOKEN=***BEARER TOKEN ANDA***'
     try:
         user_data = get_user_by_username(username, bearer_token)
         print(user_data)
